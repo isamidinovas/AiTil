@@ -25,10 +25,13 @@ const Index = () => {
 
       <footer className="bg-[rgba(139,92,246,0.1)] w-full py-2">
         <div className="max-w-screen-md mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-gray-700 font-inter text-sm font-bold gap-2 text-center sm:text-left">
-          <p>Кызматташуу жана сунуш пикирлер үчүн контакты:</p>
-          <NavLink to="#" target="_blank" className=" md:text-right">
+          <NavLink to="#" target="_blank" className="font-bold md:text-right">
             Долбоор тууралуу
           </NavLink>
+          <p className="opacity-75">
+            Кызматташуу жана сунуш пикирлер үчүн контакты:
+          </p>
+
           <div className=" flex flex-col sm:items-center md:mt-5">
             <NavLink target="_blank" to="https://mamtil.gov.kg">
               Мамтил 2025
