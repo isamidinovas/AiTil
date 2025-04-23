@@ -16,13 +16,13 @@ const links = [
         Текст <ArrowRight className="inline-block w-4 h-4 mx-1" /> Үн
       </span>
     ),
-    description: "Текстти үнгө айландыруу кызматы",
+    description: "Текстти үнгө айландыруу",
     icon: Mic,
   },
   {
     url: "https://translate.mamtil.gov.kg",
     title: "Котормо кызматы",
-    description: "Дүйнөлүк тилдерден (тилдерге) которуу",
+    description: "Дүйнөлүк тилдерди которуу",
     icon: Languages,
   },
   {
@@ -32,12 +32,12 @@ const links = [
         Үн <ArrowRight className="inline-block w-4 h-4 mx-1" /> Текст
       </span>
     ),
-    description: "Үндү текстке айландыруу кызматы",
+    description: "Үндү текстке айландыруу",
     icon: FileAudio,
   },
   {
     url: "https://answer.mamtil.gov.kg/",
-    title: "AiTil Бот",
+    title: "AiTil Чат",
     description: "Акылдуу жардамчы",
     icon: MessageCircleQuestion,
   },
