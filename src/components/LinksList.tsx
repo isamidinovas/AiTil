@@ -4,31 +4,41 @@ import {
   FileAudio,
   Languages,
   MessageCircleQuestion,
+  ArrowLeft,
+  ArrowRight,
 } from "lucide-react";
 
 const links = [
   {
-    url: "https://translate.mamtil.gov.kg",
-    title: "Translate AiTil",
-    description: "Кыргызча которуу",
-    icon: Languages,
-  },
-  {
     url: "https://tts.mamtil.gov.kg/",
-    title: "TTS AiTil",
-    description: "Текстти үнгө айлантуу",
+    title: (
+      <span className="flex items-center gap-1">
+        Текст <ArrowRight className="inline-block w-4 h-4 mx-1" /> Үн
+      </span>
+    ),
+    description: "Текстти үнгө айландыруу кызматы",
     icon: Mic,
   },
   {
+    url: "https://translate.mamtil.gov.kg",
+    title: "Котормо кызматы",
+    description: "Дүйнөлүк тилдерден (тилдерге) которуу",
+    icon: Languages,
+  },
+  {
     url: "https://asr.mamtil.gov.kg/",
-    title: "ASR AiTil",
-    description: "Үндү текстке айлантуу",
+    title: (
+      <span className="flex items-center gap-1">
+        Үн <ArrowRight className="inline-block w-4 h-4 mx-1" /> Текст
+      </span>
+    ),
+    description: "Үндү текстке айландыруу кызматы",
     icon: FileAudio,
   },
   {
     url: "https://answer.mamtil.gov.kg/",
-    title: "Answer AiTil",
-    description: "Суроо-жооп",
+    title: "AiTil Бот",
+    description: "Акылдуу жардамчы",
     icon: MessageCircleQuestion,
   },
 ];
@@ -54,7 +64,7 @@ export default function LinksList() {
             >
               <div className="flex items-center gap-3">
                 <div className="p-1.5 rounded-lg bg-primary/5 group-hover:bg-primary/10 transition-colors">
-                  <item.icon size={20} className="text-gray-700" />
+                  <item.icon size={20} className="text-blue-800" />
                 </div>
                 <span className="font-inter font-semibold text-base tracking-tight text-gray-700">
                   {item.title}
