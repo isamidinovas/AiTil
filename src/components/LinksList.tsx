@@ -7,6 +7,7 @@ import {
   ArrowLeft,
   ArrowRight,
 } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 const links = [
   {
@@ -49,9 +50,9 @@ export default function LinksList() {
       <div className="bg-white/40 backdrop-blur-xl border border-primary/10 rounded-3xl shadow-lg p-14">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {links.map((item, index) => (
-            <a
+            <NavLink
               key={item.url}
-              href={item.url}
+              to={item.url}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative rounded-xl bg-white/30 border border-primary/10 
@@ -83,7 +84,7 @@ export default function LinksList() {
                 className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/5 to-transparent opacity-0 
                             group-hover:opacity-100 transition-opacity duration-300"
               />
-            </a>
+            </NavLink>
           ))}
         </div>
       </div>

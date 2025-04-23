@@ -14,6 +14,7 @@ const Index = () => {
         </div>
         <NavLink
           to="#"
+          target="_blank"
           className="text-xl md:text-2xl text-gray-900 font-manrope text-center md:text-right"
         >
           Долбоор тууралуу
@@ -35,8 +36,12 @@ const Index = () => {
         <div className="max-w-screen-sm mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-gray-700 font-inter text-sm font-bold gap-2 text-center sm:text-left">
           <p>Кызматташуу жана сунуш пикирлер үчүн контакты:</p>
           <div className=" flex flex-col sm:items-center">
-            <NavLink to="/https://mamtil.gov.kg">Мамтил 2025</NavLink>
-            <NavLink to="/https://ulut.kg">UlutSoft</NavLink>
+            <NavLink target="_blank" to="https://mamtil.gov.kg">
+              Мамтил 2025
+            </NavLink>
+            <NavLink target="_blank" to="https://ulut.kg/">
+              UlutSoft
+            </NavLink>
           </div>
         </div>
       </footer>
