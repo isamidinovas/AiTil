@@ -22,6 +22,7 @@ export default {
         playfair: ["Playfair Display", "serif"],
         inter: ["Inter", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
