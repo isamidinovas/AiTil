@@ -41,7 +41,7 @@ const Index = () => {
               <Phone className="size-4" /> Телефон номер: +996(777) 77-77-77
             </p>
             <p className="whitespace-nowrap flex items-center gap-1">
-              <Mail className="size-4" /> Email: test@gmail.com
+              <Mail className="size-4" /> Email: aitil.kg@gmail.com
             </p>
           </div>
         </div>
