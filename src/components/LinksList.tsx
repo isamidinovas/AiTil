@@ -4,7 +4,6 @@ import {
   FileAudio,
   Languages,
   MessageCircleQuestion,
-  ArrowLeft,
   ArrowRight,
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -19,12 +18,14 @@ const links = [
     ),
     description: "Текстти үнгө айландыруу",
     icon: Mic,
+    isSplitText: false,
   },
   {
     url: "https://translate.mamtil.gov.kg",
-    title: "Котормо кызматы",
-    description: "Дүйнөлүк тилдерди которуу",
+    title: "Айтил котормо",
+    description: "Текст которуу кызматы ",
     icon: Languages,
+    isSplitText: false,
   },
   {
     url: "https://asr.mamtil.gov.kg/",
@@ -35,12 +36,15 @@ const links = [
     ),
     description: "Үндү текстке айландыруу",
     icon: FileAudio,
+    isSplitText: false,
   },
   {
     url: "https://answer.mamtil.gov.kg/",
-    title: "AiTil Чат",
-    description: "Акылдуу жардамчы",
+    title: "Айтил Чат",
+    description:
+      "Акылдуу жардамчы\nЭскертүү: ЖИ принцибинде жасалган программалык продуктулар өзүн-өзү өнүктүрүү этабында экендигин, ошондуктан маалыматтарды дайыма эле так бере албашы жана каталар кетиши мүмкүн экенин эскертебиз.",
     icon: MessageCircleQuestion,
+    isSplitText: true,
   },
 ];
 
@@ -78,7 +82,14 @@ export default function LinksList() {
                 />
               </div>
               <span className="block text-gray-700 font-inter text-xs leading-relaxed">
-                {item.description}
+                {item.isSplitText
+                  ? item.description.split("\n").map((line, idx) => (
+                      <span key={idx}>
+                        {line}
+                        <br />
+                      </span>
+                    ))
+                  : item.description}
               </span>
               <div
                 className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/5 to-transparent opacity-0 

@@ -9,9 +9,12 @@ const Index = () => {
       <div className="flex items-center gap-4 justify-center mt-11">
         <img src={LogoImg} className="w-28 h-auto" alt="AiTil Logo" />
         <span className="text-3xl md:text-5xl text-gray-900 font-bold font-sans">
-          AiTil
+          Айтил-
         </span>
       </div>
+      <p className="text-gray-900 font-bold font-sans text-xl md:text-2xl p-4">
+        Акылдын ачкычы!
+      </p>
 
       <div className="w-full max-w-screen-md px-4">
         <LinksList />
@@ -24,7 +27,7 @@ const Index = () => {
         мүмкүн экенин эскертебиз.
       </p>
 
-      <footer className="bg-[rgba(139,92,246,0.1)] w-full py-4 sm:py-6 p-2">
+      <footer className="bg-[rgba(216,209,233,0.1)] w-full py-4 sm:py-6 p-2">
         <div className="max-w-screen-md mx-auto px-4 flex flex-col sm:flex-row justify-between  text-gray-700 font-inter text-sm font-bold gap-4 sm:gap-2 text-center sm:text-left">
           <NavLink
             to="#"
@@ -35,7 +38,7 @@ const Index = () => {
           </NavLink>
           <div className="flex flex-col gap-2 items-center sm:items-start md:items-center">
             <p className="whitespace-nowrap">
-              Кызматташуу жана сунуш пикирлер үчүн контакты:
+              Кызматташуу жана сунуш пикирлер үчүн байланыш:
             </p>
             <p className="whitespace-nowrap  flex items-center ">
               <Phone className="size-4" /> Телефон номер: +996(777) 77-77-77
