@@ -6,25 +6,22 @@ import { Mail, Phone } from "lucide-react";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-between bg-gradient-to-br from-zinc-50 to-zinc-200 font-semibold">
-      <div className="flex items-center gap-4 justify-center mt-11">
+      <div className="flex items-center gap-4 justify-center p-9">
         <img src={LogoImg} className="w-28 h-auto" alt="AiTil Logo" />
         <span className="text-3xl md:text-5xl text-gray-900 font-bold font-sans">
-          АЙТИЛ-
+          АЙТИЛ-акыл ачкычы
         </span>
       </div>
-      <p className="text-gray-900 font-bold font-sans text-xl md:text-2xl p-4">
-        Акылдын ачкычы!
-      </p>
 
       <div className="w-full max-w-screen-md px-4">
         <LinksList />
       </div>
 
       <p className="text-gray-900 text-sm px-4 text-center max-w-xl mt-8 mb-6">
-        <span className="text-red-500 font-bold">Эскертүү:</span> ЖИ принцибинде
-        жасалган программалык продуктулар өзүн-өзү өнүктүрүү этабында,
-        ошондуктан маалыматтарды дайыма эле так бере албашы жана каталар кетиши
-        мүмкүн .
+        <span className="text-red-500 font-bold">Эскертүү:</span> Жасалма
+        интеллект принцибинде жасалган программалык продуктулар өзүн-өзү
+        өнүктүрүү этабында, ошондуктан маалыматтарды дайыма эле так бере албашы
+        жана каталар кетиши мүмкүн
       </p>
 
       <footer className="bg-[rgba(216,209,233,0.1)] w-full py-4 sm:py-6 p-2">
