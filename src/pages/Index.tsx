@@ -9,7 +9,7 @@ const Index = () => {
       <div className="flex items-center gap-4 justify-center mt-11">
         <img src={LogoImg} className="w-28 h-auto" alt="AiTil Logo" />
         <span className="text-3xl md:text-5xl text-gray-900 font-bold font-sans">
-          Айтил-
+          АЙТИЛ-
         </span>
       </div>
       <p className="text-gray-900 font-bold font-sans text-xl md:text-2xl p-4">
