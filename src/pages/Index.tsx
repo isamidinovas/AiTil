@@ -7,8 +7,8 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-between bg-gradient-to-br from-zinc-50 to-zinc-200 font-semibold">
       <div className="flex items-center gap-4 justify-center p-9">
-        <img src={LogoImg} className="w-28 h-auto" alt="AiTil Logo" />
-        <span className="text-3xl md:text-5xl text-gray-900 font-bold font-sans">
+        <img src={LogoImg} className="w-20 md:w-28 h-auto" alt="AiTil Logo" />
+        <span className="text-2xl md:text-5xl text-gray-900 font-bold font-sans">
           АЙТИЛ-акыл ачкычы
         </span>
       </div>
