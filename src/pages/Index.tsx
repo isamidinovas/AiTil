@@ -24,7 +24,7 @@ const Index = () => {
         жана каталар кетиши мүмкүн
       </p>
 
-      <footer className="bg-[rgba(216,209,233,0.1)] w-full py-4 sm:py-6 p-2">
+      <footer className="bg-[rgba(216,209,233,0.1)] w-full py-4 sm:py-6 px-4">
         <div className="max-w-screen-md mx-auto px-4 flex flex-col sm:flex-row justify-between  text-gray-700 font-inter text-sm font-bold gap-4 sm:gap-2 text-center sm:text-left">
           <NavLink
             to="#"
