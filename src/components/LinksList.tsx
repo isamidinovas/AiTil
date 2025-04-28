@@ -21,7 +21,7 @@ const links = [
   },
   {
     url: "https://translate.mamtil.gov.kg",
-    title: "АЙТИЛ котормо",
+    title: "Айтил котормо",
     description: "Текст которуу кызматы ",
     icon: Languages,
   },
@@ -37,7 +37,7 @@ const links = [
   },
   {
     url: "https://answer.mamtil.gov.kg/",
-    title: "АЙТИЛ Чат",
+    title: "Айтил Чат",
     description: "Акылдуу жардамчы",
     icon: MessageCircleQuestion,
   },
